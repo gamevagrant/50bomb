@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankItemRendererSkin" width="586" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="586" height="100" y="0" horizontalCenter="0">
+		<e:Rect id="bgRect" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="scoreLabel" text="0" y="39" fontFamily="Microsoft YaHei" width="142" textAlign="center" horizontalCenter="202" textColor="0x7d7d7d" bold="true" x="424" scaleX="1" scaleY="1"/>
+		<e:Image id="rankImg" width="31" height="38" x="68" y="36" scaleX="1" scaleY="1"/>
+		<e:Label id="rankLabel" text="4" x="74" y="38" fontFamily="Microsoft YaHei" textColor="0x7d7d7d" bold="true" scaleX="1" scaleY="1"/>
+		<e:Label id="nameLabel" text="名字" x="228" y="20" fontFamily="Microsoft YaHei" textColor="0x7d7d7d" bold="true" anchorOffsetX="0" width="193" anchorOffsetY="0" height="69" textAlign="left" verticalAlign="middle" lineSpacing="5" scaleX="1" scaleY="1"/>
+		<e:Image id="headImg" width="50" height="50" x="161.5" scaleX="1" scaleY="1" y="25"/>
+		<e:Rect id="maskImg" width="50" height="50" x="161.5" anchorOffsetX="0" ellipseWidth="83" scaleX="1" scaleY="1" y="25"/>
+	</e:Group>
+</e:Skin>

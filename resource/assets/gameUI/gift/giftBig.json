@@ -1,0 +1,8 @@
+{"file":"giftBig.png","frames":{
+"gift_get1_png":{"x":772,"y":165,"w":224,"h":80,"offX":0,"offY":0,"sourceW":224,"sourceH":80},
+"gift_get2_png":{"x":546,"y":165,"w":224,"h":80,"offX":0,"offY":0,"sourceW":224,"sourceH":80},
+"gift_gzh1_png":{"x":772,"y":83,"w":224,"h":80,"offX":0,"offY":0,"sourceW":224,"sourceH":80},
+"gift_gzh2_png":{"x":546,"y":83,"w":224,"h":80,"offX":0,"offY":0,"sourceW":224,"sourceH":80},
+"gift_award1_png":{"x":772,"y":1,"w":224,"h":80,"offX":0,"offY":0,"sourceW":224,"sourceH":80},
+"gift_award2_png":{"x":546,"y":1,"w":224,"h":80,"offX":0,"offY":0,"sourceW":224,"sourceH":80},
+"gift_bg_png":{"x":1,"y":1,"w":543,"h":451,"offX":24,"offY":18,"sourceW":586,"sourceH":494}}}

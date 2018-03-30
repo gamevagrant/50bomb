@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendItemSkin" width="600" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="headImg" width="100" height="100" verticalCenter="0" left="30"/>
+	<e:Label id="nameLabel" text="Label" x="159" verticalCenter="0" textColor="0x000000"/>
+	<e:Button id="playBtn" label="Play" verticalCenter="0" right="32"/>
+	<e:Rect id="maskImg" width="100" height="100" verticalCenter="0" left="30" ellipseWidth="83"/>
+</e:Skin>

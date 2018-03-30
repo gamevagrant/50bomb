@@ -1,0 +1,8 @@
+{"file":"gameOverBig.png","frames":{
+"go_scaleBg_png":{"x":1,"y":1,"w":424,"h":224,"offX":0,"offY":0,"sourceW":424,"sourceH":224},
+"go_star_png":{"x":766,"y":189,"w":36,"h":34,"offX":0,"offY":0,"sourceW":36,"sourceH":34},
+"go_starBg_png":{"x":709,"y":1,"w":280,"h":100,"offX":0,"offY":0,"sourceW":280,"sourceH":100},
+"go_Trophy_png":{"x":709,"y":189,"w":55,"h":55,"offX":0,"offY":0,"sourceW":55,"sourceH":55},
+"go_xinjilu_png":{"x":709,"y":103,"w":297,"h":84,"offX":0,"offY":0,"sourceW":297,"sourceH":84},
+"btn_share1_png":{"x":427,"y":1,"w":280,"h":100,"offX":0,"offY":0,"sourceW":280,"sourceH":100},
+"btn_share2_png":{"x":427,"y":103,"w":280,"h":100,"offX":0,"offY":0,"sourceW":280,"sourceH":100}}}

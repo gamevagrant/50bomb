@@ -1,0 +1,34 @@
+{
+	"engineVersion": "5.1.8",
+	"compilerVersion": "5.1.8",
+	"template": {},
+	"target": {
+		"current": "web"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "egret-facebook"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "promise"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankLayerSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="1" fillColor="0xa09d9d"/>
+	<e:Group id="adaptiveGroup" anchorOffsetX="0" anchorOffsetY="0" width="640" height="1136" y="2.48" horizontalCenter="0">
+		<e:Image source="rank_scale_png" horizontalCenter="0" verticalCenter="-24"/>
+		<e:TabBar id="tabBar" width="450" height="68" y="109" itemRendererSkinName="TabBarButtonSkin" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:layout>
+				<e:HorizontalLayout gap="27"/>
+			</e:layout>
+		</e:TabBar>
+		<e:Group width="586" height="63" y="206" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="27">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x76adaf" height="58"/>
+			<e:Label text="名次" x="57" y="15" fontFamily="Microsoft YaHei" size="34" textColor="0xffffff"/>
+			<e:Label text="昵称" x="247.5" y="15" fontFamily="Microsoft YaHei" size="34" textColor="0xffffff"/>
+			<e:Label text="最高分" x="435.5" y="15" fontFamily="Microsoft YaHei" textColor="0xffffff" size="34"/>
+		</e:Group>
+		<e:ViewStack id="viewStack" width="586" height="512" y="269" x="27" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group name="好友排行" width="100%" height="100%">
+			<e:Scroller id="scroller" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+				<e:List id="friendList" left="0" right="0" top="0" bottom="0" x="-240" y="-544" scaleX="1" scaleY="1" itemRendererSkinName="RankItemRendererSkin">
+					<e:layout>
+						<e:VerticalLayout gap="0"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			</e:Group>
+			<e:Group name="世界排行" width="100%" height="100%">
+			<e:Scroller id="scroller1" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+				<e:List id="worldList" left="0" right="0" top="0" bottom="0" x="-240" y="-544" scaleX="1" scaleY="1" itemRendererSkinName="RankItemRendererSkin">
+					<e:layout>
+						<e:VerticalLayout gap="0"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			</e:Group>
+		</e:ViewStack>
+		<e:Button id="closeButton" label="" y="8.5" scaleX="1" scaleY="1" horizontalCenter="257.5" x="494">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="if_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="inviteBtn" label="" x="173" y="927">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rankYQ_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="selfInfoGroup" width="586" height="92" y="784" horizontalCenter="-1" x="27" scaleX="1" scaleY="1" anchorOffsetY="0">
+			<e:Image source="self_bg_png" y="0" x="0" scaleX="1" scaleY="1"/>
+			<e:Label id="scoreLabel" text="2000" fontFamily="Microsoft YaHei" width="142" textAlign="center" horizontalCenter="202" bold="true" x="424" scaleX="1" scaleY="1" textColor="0xffffff" y="31"/>
+			<e:Image id="rankImg" width="31" height="38" x="67.5" scaleX="1" scaleY="1" y="27"/>
+			<e:Label id="rankLabel" text="4" x="73.5" fontFamily="Microsoft YaHei" bold="true" scaleX="1" scaleY="1" textColor="0xffffff" y="31"/>
+			<e:Label id="nameLabel" text="名字" x="227.5" fontFamily="Microsoft YaHei" bold="true" anchorOffsetX="0" width="193" anchorOffsetY="0" height="69" textAlign="left" verticalAlign="middle" lineSpacing="5" scaleX="1" scaleY="1" textColor="0xffffff" y="12"/>
+			<e:Image id="headImg" width="50" height="50" x="161.5" scaleX="1" scaleY="1" y="23.5"/>
+			<e:Rect id="maskImg" width="50" height="50" x="161.5" y="24.5" anchorOffsetX="0" ellipseWidth="83"/>
+		</e:Group>
+
+
+
+	</e:Group>
+</e:Skin>

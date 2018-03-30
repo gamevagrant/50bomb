@@ -1,0 +1,11 @@
+{"file":"mainBig.png","frames":{
+"main_Ranking_png":{"x":381,"y":1,"w":94,"h":120,"offX":10,"offY":9,"sourceW":115,"sourceH":144},
+"main_share_png":{"x":285,"y":1,"w":94,"h":120,"offX":9,"offY":13,"sourceW":115,"sourceH":144},
+"50bomb_png":{"x":1,"y":1,"w":186,"h":67,"offX":0,"offY":0,"sourceW":186,"sourceH":67},
+"main_icon_png":{"x":477,"y":1,"w":32,"h":32,"offX":2,"offY":2,"sourceW":37,"sourceH":37},
+"square_png":{"x":1,"y":70,"w":94,"h":119,"offX":11,"offY":10,"sourceW":115,"sourceH":144},
+"Prompt_png":{"x":97,"y":123,"w":101,"h":80,"offX":0,"offY":0,"sourceW":101,"sourceH":80},
+"score_png":{"x":97,"y":70,"w":48,"h":24,"offX":0,"offY":0,"sourceW":48,"sourceH":24},
+"star_png":{"x":477,"y":60,"w":23,"h":22,"offX":0,"offY":0,"sourceW":23,"sourceH":22},
+"help_png":{"x":189,"y":1,"w":94,"h":120,"offX":11,"offY":9,"sourceW":115,"sourceH":144},
+"trophyImg_png":{"x":477,"y":35,"w":27,"h":23,"offX":4,"offY":8,"sourceW":35,"sourceH":35}}}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InviteFriendLayerSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="-1" right="1" top="0" bottom="0" fillAlpha="0.4" x="0" y="0" scaleX="1" scaleY="1" fillColor="0x190C0C"/>
+	<e:Group id="adaptiveGroup" left="0" right="0" top="0" bottom="0">
+		<e:Image source="if_scale_png" y="297" scaleX="1" scaleY="1" horizontalCenter="-5"/>
+		<e:Button id="loginButton" label="" y="715" scaleX="1" scaleY="1" horizontalCenter="-9">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="if_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="closeButton" label="" y="384" scaleX="1" scaleY="1" horizontalCenter="213.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="if_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="与好友一决高下" y="533" fontFamily="Microsoft YaHei" size="40" textColor="0xacacac" scaleX="1" scaleY="1" horizontalCenter="-5"/>
+		<e:Image source="if_icon_png" y="307" scaleX="1" scaleY="1" horizontalCenter="-5"/>
+		<e:Image id="headImg" width="165" height="165" y="309" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-6.5"/>
+		<e:Rect id="maskImg" width="160" height="160" x="234" y="311.5" ellipseWidth="268" scaleX="1" ellipseHeight="229"/>
+	</e:Group>
+</e:Skin>

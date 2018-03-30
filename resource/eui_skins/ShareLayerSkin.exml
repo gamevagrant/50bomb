@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareLayerSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7"/>
+	<e:Group id="adaptiveGroup" width="640" height="1136" y="0" horizontalCenter="0">
+		<e:Image source="share_img1_png" y="4" horizontalCenter="239.5"/>
+		<e:Image source="share_img2_png" y="463" horizontalCenter="-101.5"/>
+		<e:Image source="share_img3_png" y="463" horizontalCenter="111.5"/>
+	</e:Group>
+</e:Skin>

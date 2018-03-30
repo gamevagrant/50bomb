@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller left="0" right="0" top="0" bottom="100">
+		<e:Group height="1136">
+			<e:Group width="600" height="300" x="224" y="490">
+				<e:Rect left="0" right="0" top="0" bottom="0" ellipseWidth="70" ellipseHeight="70" fillColor="0xffffff"/>
+			</e:Group>
+			<e:Group id="leadBoard" width="600" height="200" x="247" y="133">
+				<e:Rect ellipseWidth="70" ellipseHeight="70" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" fillColor="0xffffff" x="300" y="356" strokeColor="0x000000" strokeWeight="1" strokeAlpha="0.5"/>
+				<e:Label text="LeaderBoard" horizontalCenter="0" top="20" fontFamily="Arial" textColor="0x000000" x="213" y="362" scaleX="1" scaleY="1"/>
+				<e:List id="rankList" itemRendererSkinName="SettlementItemSkin" scaleX="1" scaleY="1" left="0" right="0" top="63" bottom="0" x="-20" y="398">
+				</e:List>
+			</e:Group>
+			<e:Group id="friend" width="600" height="200" x="224" y="539">
+				<e:Rect ellipseWidth="70" ellipseHeight="70" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF" strokeColor="0x000000" strokeWeight="2"/>
+				<e:Label text="Play with friends" size="20" textColor="0x000000" top="9" horizontalCenter="0"/>
+				<e:Button id="inviteBtn" label="Invite friends" top="37" enabled="true" width="190" horizontalCenter="0" height="40"/>
+				<e:List id="friendsList" scaleX="1" scaleY="1" top="84" left="0" right="0" bottom="0" itemRendererSkinName="FriendItemSkin"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Group left="0" right="0" bottom="0" height="100">
+		<e:Button id="playBtn" label="Play now" left="0" right="0" top="0" bottom="0"/>
+	</e:Group>
+</e:Skin>

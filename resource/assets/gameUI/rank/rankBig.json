@@ -1,0 +1,9 @@
+{"file":"rankBig.png","frames":{
+"head_iocn":{"x":885,"y":1,"w":50,"h":50,"offX":0,"offY":0,"sourceW":50,"sourceH":50},
+"btn_nor":{"x":222,"y":95,"w":219,"h":71,"offX":0,"offY":0,"sourceW":219,"sourceH":71},
+"self_bg":{"x":1,"y":1,"w":586,"h":92,"offX":0,"offY":0,"sourceW":586,"sourceH":92},
+"icon_2":{"x":937,"y":41,"w":31,"h":38,"offX":0,"offY":0,"sourceW":31,"sourceH":38},
+"icon_1":{"x":970,"y":1,"w":31,"h":38,"offX":0,"offY":0,"sourceW":31,"sourceH":38},
+"icon_3":{"x":937,"y":1,"w":31,"h":38,"offX":0,"offY":0,"sourceW":31,"sourceH":38},
+"btn_sel":{"x":1,"y":95,"w":219,"h":71,"offX":0,"offY":0,"sourceW":219,"sourceH":71},
+"rankYQ_btn_png":{"x":589,"y":1,"w":294,"h":94,"offX":0,"offY":0,"sourceW":294,"sourceH":94}}}
